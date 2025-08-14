@@ -7,26 +7,26 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "26701844"))
+API_HASH = getenv("API_HASH", "63ba937ff726aa65ef2650188dbcc891")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "8441875844:AAGW3uZBl_G_wMdI-yqKzJ2fg05T1bZSso8")
 
 #Get API_KEY from @DeadlineTechOwner or @DeadlineApiBot
 API_BASE_URL = getenv("API_BASE_URL", "https://deadlinetech.site")
 API_KEY = getenv("API_KEY")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://ghfghavikghosh:avikghosh@clusthgfhfger0.koohwzp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002728135846"))
 
 # Get this value from @Harry_RoxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6848223695))
+OWNER_ID = int(getenv("OWNER_ID", 6874324360))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -43,16 +43,16 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/DeadlineTechTeam")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/DeadlineTechsupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/hiirukuuu")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/hiirukuuu")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "22b6125bfe224587b722d6815002db2b")
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "c9c63c6fbf2f467c8bc68624851e9773")
 
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
@@ -66,7 +66,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQGXcBQAeHNUQdgaMLVuu-1zyeucPpReDkTLAQ7iwWq8yBIWaB6zw8Ep0RNDdMjDy3FD5I94su2wZvFs1Mu3dWF2KyNo9eSPzwQnVOcDbUUhEfId2ywa60GXD0TS5yp6NeUWf_WBP_Nv2K7VMQJr8SveqRx22H2IkQa9poc9Ke1K_V7NtX5MScX1Pnsnx2ARs-_CkZp-q33cBBxwI7qSBGwwjk35W_QijXCg5aBYv55MRbo42FcMClzUkWeQLKacLnnep9M4MVXRMbzUkbitdyCbPnfOvMXc4WElscUygfU2OljSANSBz65YDbVcmZ1Y-8rXTYXhK1pWPovAndMadd171-hTFgAAAAHTcjdTAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -82,7 +82,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/7a5ed4f61b8efe5370273-107ae75dc1853f5d2a.jpg"
+    "START_IMG_URL", "https://graph.org/file/2e919444f5d73e7f8cdfa-5c42efc4d1ce1502d7.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://files.catbox.moe/ou29gb.jpg"
