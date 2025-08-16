@@ -82,18 +82,18 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/xmz7fy.png"
+    "START_IMG_URL", "https://files.catbox.moe/vik6yz.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://files.catbox.moe/hbbnnv.png"
 )
 PLAYLIST_IMG_URL = "https://files.catbox.moe/tny9ug.jpg"
 STATS_IMG_URL = "https://files.catbox.moe/k3e3bg.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/nknnw1.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/vik6yz.jpg"
 TELEGRAM_VIDEO_URL = "https://files.catbox.moe/1xn73k.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/tny9ug.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/vik6yz.jpg"
 SOUNCLOUD_IMG_URL = "https://files.catbox.moe/1xn73k.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/fpknxj.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/vik6yz.jpg"
 SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/1xn73k.jpg"
 SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/1xn73k.jpg"
 SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/1xn73k.jpg"
