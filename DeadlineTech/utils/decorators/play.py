@@ -111,7 +111,7 @@ def PlayWrapper(command):
             try:
                 bot_member = await app.get_chat_member(chat_id, (await app.get_me()).id)
                 if bot_member.status != ChatMemberStatus.ADMINISTRATOR:
-                    return await message.reply_text("❌ Please promote the bot to admin to use music features.")
+                    return await message.reply_text("If you want to listen to music, make me an admin.")
             except Exception as e:
                 logger.warning(f"Couldn't check bot admin status: {e}")
 
