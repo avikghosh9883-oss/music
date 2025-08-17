@@ -83,7 +83,7 @@ class Userbot(Client):
             assistants.append(number)
 
             try:
-                await client.send_message(config.LOGGER_ID, f"✅ Assistant {number} is now online.")
+                await client.send_message(config.LOGGER_ID, f"✅ My Assistant {number} is now online.")
             except Exception:
                 LOGGER(__name__).error(
                     f"❌ Assistant {number} failed to send a message to the log group. "
