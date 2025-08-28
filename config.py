@@ -80,11 +80,9 @@ votemode = {}
 autoclean = []
 confirmer = {}
 
-START_VIDS = [
-    "https://telegra.ph/file/9b7e1b820c72a14d90be7.mp4",
-    "https://telegra.ph/file/72f349b1386d6d9374a38.mp4",
-    "https://telegra.ph/file/a4d90b0cb759b67d68644.mp4"
-]
+START_IMG_URL = getenv(
+    "START_IMG_URL", "https://files.catbox.moe/y6v1w3.jpg"
+)
 
 PING_IMG_URL = getenv(
     "PING_VID_URL", "https://files.catbox.moe/hbbnnv.png"
