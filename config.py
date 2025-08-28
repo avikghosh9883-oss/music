@@ -81,8 +81,8 @@ autoclean = []
 confirmer = {}
 
 
-START_VID_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/9b7e1b820c72a14d90be7.mp4"
+START_IMG_URL = getenv(
+    "START_VID_URL", "https://telegra.ph/file/9b7e1b820c72a14d90be7.mp4"
 )
 PING_IMG_URL = getenv(
     "PING_VID_URL", "https://files.catbox.moe/hbbnnv.png"
